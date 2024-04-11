@@ -5,6 +5,7 @@ import {
   TextInput,
   StyleSheet,
   FlatList,
+  Image,
   TouchableOpacity,
   SafeAreaView,
 } from "react-native";
@@ -63,7 +64,7 @@ const TodoList = () => {
     <SafeAreaView style={styles.container}>
       <View style={styles.container1}>
         <Image
-          source={require("../TodoList/assets/nic.png")}
+          source={require("./assets/nic.png")}
           style={styles.profile}
         ></Image>
         <View style={styles.textcontain}>
